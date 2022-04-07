@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.start{
+  font-weight: bold;
+}
+
+.first{
+ background-color: blue;
+ height: 30px;
+ width: 80px;
+ border-radius: 20%;
+ 
+ 
+}
+.divfirst{
+  display: grid;
+  grid-template-columns: repeat(2,25%);
+  gap: 20px;
+  padding: 1%;
+}
+.second{
+  background-color: grey;
+  height: 30px;
+  width: 80px;
+  border-radius: 20%;
+
+}
+.third{
+  background-color:orange ;
+  height: 30px;
+ width: 80px;
+ border-radius: 20%;
+ 
+
+
+}
+.forth{
+  background-color:red ;
+  height: 30px;
+ width: 80px;
+ border-radius: 20%;
+
+}
+.fifth{
+  background-color: pink ;
+  height: 30px;
+  width: 80px;
+  border-radius: 20%;
+
+}
+.sixth{
+  background-color: green ;
+  height: 30px;
+ width: 80px;
+ border-radius: 20%;
+
+}
+.seventh{
+  background-color: pink;
+  height: 30px;
+  width: 80px;
+  border-radius: 20%;
+
+}
+.eighth{
+  background-color: lite yellowgreen;
+  height: 30px;
+  width: 80px;
+  border-radius: 20%;
+
+}
+
